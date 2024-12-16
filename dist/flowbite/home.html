@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <title>Document</title>
+</head>
+<body>
+   
+
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="../../src/IHYA logo color1.svg" class="h-8" alt="IHYA Logo">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">IHYA</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+
+        <li>
+          <a href="#" class="block py-2 px-3 rounded  md:bg-transparent md:text-black md:p-0 md:dark:text-black text-[10px]" aria-current="page"><div class="flex flex-col items-center">
+            
+            <svg class="fill-blue-900" width="39" height="38" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect x="0.726318" width="37.3214" height="37.3214" fill="url(#pattern0_2083_28)"/>
+                <defs>
+                <pattern id="pattern0_2083_28" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_2083_28" transform="scale(0.01)"/>
+                </pattern>
+                <image id="image0_2083_28" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                </defs>
+                </svg>
+                
+                
+                
+                <p>Community</p></div></a>
+        </li>
+
+        
+        
+      </ul>
+    </div>
+    </div>
+  </nav> 
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
